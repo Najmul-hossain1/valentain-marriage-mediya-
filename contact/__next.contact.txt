@@ -2,4 +2,4 @@
 2:I[39756,["/valentain-marriage-mediya-/_next/static/chunks/11da1gll6.tml.js","/valentain-marriage-mediya-/_next/static/chunks/0m94~e4vi90ff.js","/valentain-marriage-mediya-/_next/static/chunks/0d3shmwh5_nmn.js","/valentain-marriage-mediya-/_next/static/chunks/034bwfb.7uslk.js","/valentain-marriage-mediya-/_next/static/chunks/0gt7z8j4ybo77.js"],"default"]
 3:I[37457,["/valentain-marriage-mediya-/_next/static/chunks/11da1gll6.tml.js","/valentain-marriage-mediya-/_next/static/chunks/0m94~e4vi90ff.js","/valentain-marriage-mediya-/_next/static/chunks/0d3shmwh5_nmn.js","/valentain-marriage-mediya-/_next/static/chunks/034bwfb.7uslk.js","/valentain-marriage-mediya-/_next/static/chunks/0gt7z8j4ybo77.js"],"default"]
 4:[]
-0:{"rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"isPartial":false,"staleTime":300,"varyParams":"$W4","buildId":"ANu7ibI_DVc-uim7SLAtz"}
+0:{"rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"isPartial":false,"staleTime":300,"varyParams":"$W4","buildId":"3CvLYw3p63n9a6nxS940J"}
