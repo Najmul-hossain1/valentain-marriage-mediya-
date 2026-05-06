@@ -1,2 +1,2 @@
-:HL["/_next/static/chunks/16vhnsdb3l8k3.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"GEljmQ5RZL-pP3S7HPNll"}
+:HL["/valentain-marriage-mediya-/_next/static/chunks/16vhnsdb3l8k3.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"ANu7ibI_DVc-uim7SLAtz"}
