@@ -19,9 +19,7 @@ const Sidebar: FC<SidebarProps> = ({ isOpen, onClose, pathname }) => {
   return (
     <div
       ref={sidebarRef}
-      className={`fixed inset-y-0 right-0 z-50 min-w-72 bg-bodyColor border-l border-l-hoverColor/20
-      shadow-xl shadow-lightSky/40 transform ${
-        isOpen ? "translate-x-0" : "translate-x-full"
+      className={`fixed inset-y-0 right-0 z-50 min-w-72 bg-bodyColor border-l border-l-hoverColor/20 shadow-xl shadow-lightSky/40 transform ${isOpen ? "translate-x-0" : "translate-x-full"
       } hoverEffect`}
     >
       <div className="flex justify-end p-4">
@@ -46,9 +44,7 @@ const Sidebar: FC<SidebarProps> = ({ isOpen, onClose, pathname }) => {
             onClick={onClose}
             key={item?.title}
             href={item?.href}
-            className={`hover:text-hoverColor hoverEffect ${
-              item?.href === pathname ? "text-hoverColor" : ""
-            }`}
+            className={`hover:text-hoverColor hoverEffect ${item?.href === pathname ? "text-hoverColor" : ""}`}
           >
             {item?.title}
           </Link>

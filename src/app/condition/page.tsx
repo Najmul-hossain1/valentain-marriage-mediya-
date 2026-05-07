@@ -1,12 +1,10 @@
-import Container from '@/components/Container'
+import TermsAndCondition from '@/components/TermsAndCondition'
 import React from 'react'
 
 const page = () => {
   return (
     <div>
-      <Container>
-        contact
-      </Container>
+      <TermsAndCondition />
     </div>
   )
 }

@@ -1,12 +1,9 @@
-import Container from '@/components/Container'
 import React from 'react'
 
 const page = () => {
   return (
     <div>
-      <Container>
-        contact
-      </Container>
+      tastimonial-page
     </div>
   )
 }

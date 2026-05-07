@@ -1,3 +1,4 @@
+
 "use client";
 import React, { useState } from "react";
 import Container from "./Container";
@@ -17,7 +18,7 @@ const Header = () => {
   const pathname = usePathname();
 
   return (
-    <header className="border-b border-b-hoverColor/30 sticky top-0 left-0 bg-white dark:bg-black z-50">
+    <header className="border-b border-b-hoverColor/30 sticky top-0 left-0 bg-white dark:bg-black z-50 overflow-hidden">
       <Container className="py-4 flex justify-between items-center">
         {/* logo */}
         <Logo title="V.Marriage" subtitle="Mediya" />
@@ -30,13 +31,10 @@ const Header = () => {
             <Link 
               key={item?.title} 
               href={item?.href} 
-              className={`hover:text-hoverColor hoverEffect
-              relative group overflow-x-hidden ${pathname === item?.href && "text-hoverColor"}`}
+              className={`hover:text-hoverColor hoverEffect relative group overflow-x-hidden ${pathname === item?.href && "text-hoverColor"}`}
             >
               {item?.title}
-              <span className={`w-full h-px bg-hoverColor inline-block
-                absolute left-0 bottom-0 group-hover:translate-x-0 hoverEffect
-                ${pathname === item?.href ? 'translate-x-0' : 'translate-x-[-105%]'}`} 
+              <span className={`w-full h-px bg-hoverColor inline-block absolute left-0 bottom-0 group-hover:translate-x-0 hoverEffect ${pathname === item?.href ? 'translate-x-0' : 'translate-x-[-105%]'}`} 
               />
             </Link>
           ))}
