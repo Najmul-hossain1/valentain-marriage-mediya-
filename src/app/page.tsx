@@ -1,21 +1,24 @@
-import { Button } from "../components/ui/button";
+import Container from "@/components/Container";
+import Packageses from "@/components/Packageses";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 
 export default function Home() {
   return (
-    <div>
-      <p>
-        home-page
-      </p>
-      <p className="text-sm tracking-wide p-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-         Iusto, velit! Ab cupiditate tempore illo, beatae quidem 
-         repellat perferendis numquam voluptate provident quo 
-         architecto inventore nam, excepturi sit maiores officia
-          iusto non ut itaque? Veniam quae, quia architecto laborum
-           atque perferendis rerum odio, error, ex totam quod alias
-            expedita eaque impedit.</p>
-      <Button variant={"secondary"} className="text-black">click_me</Button>
-    </div>
-    
+    <main>
+      <Container className="py-10">
+        <Packageses />
+        <div className="flex justify-center items-center mt-3">
+            <Button
+              asChild
+              className=" px-4 py-1 text-white/80 hover:text-white bg-blue-600/80 hover:bg-blue-600
+          hoverEffect mt-5 md:mt-6"
+            >
+              <Link href={"/packages"}>View all</Link>
+            </Button>
+        </div>
+      </Container>
+    </main>
   );
 }

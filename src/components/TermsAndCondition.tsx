@@ -158,7 +158,7 @@ const TermsAndCondition = () => {
         Application) for any reason, or no reason, at any time in its sole
         discretion, with or without notice, including if it believes that you
         are under 18. Contacting Us If there are any questions regarding these
-        terms of use, you may contact us at support@marriagematchbd.com Defined
+        terms of use, you may contact us at support@valentainmarriagemediya.com Defined
         Terms &quot;Us,&quot; &quot;we,&quot; &quot;our,&quot; &quot;site,&quot; &quot;platform,&quot; &quot;services,&quot; &quot;app,&quot; and
         &quot;Valentain Marriage Mediya BD&quot; mean the same.
       </p>

@@ -1,9 +1,10 @@
+import Packageses from '@/components/Packageses'
 import React from 'react'
 
 const page = () => {
   return (
     <div>
-      Packages_page
+      <Packageses />
     </div>
   )
 }
