@@ -6,11 +6,7 @@ const About = () => {
     <div>
       <Container>
         <h1 className="pl-0 p-7 text-2xl text-center md:text-start md:text-4xl tracking-tight">
-          Welcome to
-          <span className="text-2xl md:text-3xl text-lightSky">
-           
-            Valentain Marriage Mediya
-          </span>
+          Welcome to<span className="text-2xl md:text-3xl text-lightSky"> Valentain Marriage Mediya</span>
           .
         </h1>
 

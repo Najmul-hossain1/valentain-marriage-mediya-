@@ -20,9 +20,9 @@ const Packageses = () => {
         className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-2
           p-5 py-8 md:py-10"
       >
-        <div className="bg-white shadow-xl p-8 rounded-md hover:-translate-y-3 hoverEffect">
+        <div className="bg-white dark:bg-white/80 dark:text-black shadow-xl p-8 rounded-md hover:-translate-y-3 hoverEffect">
           <div className="flex flex-col justify-center items-center p-6 pt-0 gap-3 uppercase">
-            <h3 className="text-xl text-black tracking-tighter font-semibold">
+            <h3 className="text-xl tracking-tighter font-semibold">
               Starter
             </h3>
             <h2 className="text-2xl lg:text-lg">BDT 8500.00</h2>
@@ -66,7 +66,7 @@ const Packageses = () => {
           </div>
         </div>
 
-        <div className="bg-white shadow-xl p-8 rounded-md hover:-translate-y-3 hoverEffect">
+        <div className="bg-white dark:bg-white/80 dark:text-black shadow-xl p-8 rounded-md hover:-translate-y-3 hoverEffect">
           <div className="flex flex-col justify-center items-center p-6 pt-0 gap-3 uppercase">
             <h3 className="text-xl text-black tracking-tighter font-semibold">
               Basic
@@ -112,7 +112,7 @@ const Packageses = () => {
           </div>
         </div>
 
-        <div className="bg-white shadow-xl p-8 rounded-md hover:-translate-y-3 hoverEffect">
+        <div className="bg-white dark:bg-white/80 dark:text-black shadow-xl p-8 rounded-md hover:-translate-y-3 hoverEffect">
           <div className="flex flex-col justify-center items-center p-6 pt-0 gap-3 uppercase">
             <h3 className="text-xl text-black tracking-tighter font-semibold">
              Premium
@@ -158,7 +158,7 @@ const Packageses = () => {
           </div>
         </div>
 
-        <div className="bg-white shadow-xl p-8 rounded-md hover:-translate-y-3 hoverEffect">
+        <div className="bg-white dark:bg-white/80 dark:text-black shadow-xl p-8 rounded-md hover:-translate-y-3 hoverEffect">
           <div className="flex flex-col justify-center items-center p-6 pt-0 gap-3 uppercase">
             <h3 className="text-xl text-black tracking-tighter font-semibold">
               Enterprise
