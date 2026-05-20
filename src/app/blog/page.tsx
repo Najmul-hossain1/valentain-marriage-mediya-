@@ -1,9 +1,10 @@
+import Bloglist from '@/components/Bloglist'
 import React from 'react'
 
 const page = () => {
   return (
     <div>
-      blog-page
+      <Bloglist />
     </div>
   )
 }

@@ -1,4 +1,7 @@
+// import BlogItem from "@/components/BlogItem";
+// import Bloglist from "@/components/Bloglist";
 import Container from "@/components/Container";
+import HomePageBlogList from "@/components/HomePageBlogList";
 import Packageses from "@/components/Packageses";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
@@ -8,6 +11,8 @@ export default function Home() {
   return (
     <main>
       <Container className="py-10">
+        {/* <BlogItem /> */}
+        <HomePageBlogList />
         <Packageses />
         <div className="flex justify-center items-center mt-3">
             <Button
@@ -18,6 +23,8 @@ export default function Home() {
               <Link href={"/packages"}>View all</Link>
             </Button>
         </div>
+        {/* Blog Items */}
+        
       </Container>
     </main>
   );
