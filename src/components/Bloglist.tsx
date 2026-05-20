@@ -8,7 +8,7 @@ const Bloglist = () => {
     const [menu,setMenu] = useState("All");
   return (
     <Container>
-      <div className='grid grid-cols-2 md:grid-cols-4 px-20 lg:px-60 pb-10 pt-5'>
+      <div className='grid grid-cols-2 md:grid-cols-4 px-10 gap-2 lg:px-60 pb-10 pt-5'>
         <button onClick={()=>setMenu('All')} className={menu === "All" ? 'bg-black text-white py-1 text-xs md:text-sm px-4 rounded-sm' : "py-1 text-xs md:text-sm px-4 rounded-sm hover:cursor-pointer"}>All</button>
         <button onClick={()=>setMenu('Religion&LegalGuide')} className={menu === "Religion&LegalGuide" ? 'bg-black text-white py-1 text-xs md:text-sm px-4 rounded-sm' : "py-1 text-xs md:text-sm px-4 rounded-sm hover:cursor-pointer"}>Religion&LegalGuide</button>
         <button onClick={()=>setMenu('Relationship')} className={menu === "Relationship" ? 'bg-black text-white py-1 text-xs md:text-sm px-4 rounded-sm' : "py-1 text-xs md:text-sm px-4 rounded-sm hover:cursor-pointer"}>Relationship</button>
